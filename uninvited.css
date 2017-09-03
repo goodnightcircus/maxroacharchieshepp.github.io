@@ -21,7 +21,7 @@ img{
 }
 
 #home{
-  background: url("photos/background.jpg");
+  background-image: url("photos/background.jpg");
 }
 
 #bg-img {

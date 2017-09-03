@@ -24,6 +24,19 @@ img{
   background: url("photos/background.jpg");
 }
 
+#bg-img {
+    position: fixed;
+    top: 0;
+    right: -200px;
+    z-index: 1000;
+    opacity: 0;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    text-shadow: 0 0 black;
+}
+
 .textContainer {
   border: solid 2px black;
   margin: 10px auto;
